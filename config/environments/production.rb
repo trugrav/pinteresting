@@ -78,6 +78,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Devise Requested this addition
-  config.action_mailer.default_url_options = { host: '#' }
+  config.action_mailer.default_url_options = { host: 'htp://tgv-pinteresting.herokuapp.com' }
 
 end
