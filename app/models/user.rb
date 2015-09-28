@@ -5,4 +5,10 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :pins
+
+  validates :name, presence: true
+  validates :name, length: { minimum: 2 }
+  validates :name, uniqueness: true
+  validates :name, length: { maximum: 15 }
+  validates :password, length: { minimum: 6..20 }
 end

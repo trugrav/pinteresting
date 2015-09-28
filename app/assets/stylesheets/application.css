@@ -17,42 +17,77 @@
 
  .btn-primary {
 
-background-color: #c0392b;
+background-color: 	#c0392b;
+border-color:     	#c0392b;
 
  }
 
  .btn-primary:hover {
 
-background-color: #962d22;
+background-color: 	#962d22;
+border-color:     	#962d22;
 
  }
 
  .glyphicon {
 
- 	color: #c0392b;
+ 	color: 						#c0392b;
 
  }
 
  .glyphicon:hover {
 
- 	color: #962d22;
+ 	color: 						#962d22;
 
  }
 
 .glyphicon-plus{
 
-	color: white;
+	color: 						white;
 	
 }
 
 a {
 
-	color: #c0392b;
+	color: 						#c0392b;
 
 }
 
 a:hover {
 
-	color: #962d22;
+	color: 						#962d22;
 
+}
+
+.pagination > li > a {
+
+color: 							#c0392b;
+
+
+}
+
+.pagination:hover >li > a {
+
+color: 							#962d22;
+
+
+}
+
+.pagination > .active > span:focus {
+
+background color: 	#c0392b;
+border-color:     	#c0392b;
+
+}
+
+.pagination > .active > span:hover{
+
+background-color: 	#962d22;
+border-color:     	#962d22;
+
+}
+
+.pagination > .active > span, .pagination > .active > span:focus {
+  background-color:	#c0392b;
+  border-color:     #c0392b;
 }
