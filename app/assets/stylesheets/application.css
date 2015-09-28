@@ -59,9 +59,22 @@ a:hover {
 
 }
 
+.pagination > li > a {
+
+color: 							#c0392b;
 
 
+}
 
+.pagination:hover >li > a {
+
+color: 							#962d22;
+
+
+}
+
+
+}
 
 .pagination > .active > span:hover{
 
