@@ -58,32 +58,3 @@ a:hover {
 	color: 						#962d22;
 
 }
-
-.pagination > li > a {
-
-color: 							#c0392b;
-
-
-}
-
-.pagination:hover >li > a {
-
-color: 							#962d22;
-
-
-}
-
-
-}
-
-.pagination > .active > span:hover{
-
-background-color: 	#962d22;
-border-color:     	#962d22;
-
-}
-
-.pagination > .active > span, .pagination > .active > span:focus {
-  background-color:	#c0392b;
-  border-color:     #c0392b;
-}
