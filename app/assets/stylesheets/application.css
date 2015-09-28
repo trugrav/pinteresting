@@ -61,12 +61,7 @@ a:hover {
 
 
 
-.pagination > .active > span:focus {
 
-background color: 	#c0392b;
-border-color:     	#c0392b;
-
-}
 
 .pagination > .active > span:hover{
 
