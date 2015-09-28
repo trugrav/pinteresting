@@ -10,5 +10,4 @@ class User < ActiveRecord::Base
   validates :name, length: { minimum: 2 }
   validates :name, uniqueness: true
   validates :name, length: { maximum: 15 }
-  validates :password, length: { minimum: 6..20 }
 end
